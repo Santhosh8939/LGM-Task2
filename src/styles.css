@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 25px;
+  border-radius: 12px;
+  padding: 20px;
+  color: white;
+  background-color: green;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  overflow: hidden;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  transition: all 1.1s;
+}
